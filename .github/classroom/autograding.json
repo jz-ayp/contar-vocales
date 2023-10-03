@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Hola",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "Hola",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "minúsculas",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "la casa nueva es muy linda",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "mayúsculas",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "Ayer en la UNAM hubo un simposio de la UNICEF",
+      "output": "18",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "acentos",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 main.py",
+      "input": "Es útil saber que, en México, talar un árbol requiere un permiso",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+  ]
+}
