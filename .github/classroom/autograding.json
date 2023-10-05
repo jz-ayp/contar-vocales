@@ -3,7 +3,7 @@
     {
       "name": "Hola",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
       "input": "Hola",
       "output": "2",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "minúsculas",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
       "input": "la casa nueva es muy linda",
       "output": "10",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "mayúsculas",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
       "input": "Ayer en la UNAM hubo un simposio de la UNICEF",
       "output": "18",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "acentos",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
       "input": "Es útil saber que, en México, talar un árbol requiere un permiso",
       "output": "25",
       "comparison": "included",

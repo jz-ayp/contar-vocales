@@ -7,7 +7,7 @@
 
 - **Diseña un programa para determinar el número de vocales en una frase**.
 
-- Codifica tu solución en el archivo [`main.py`](/main.py).
+- Codifica tu solución en el archivo [`contar_vocales.py`](/contar_vocales.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
 
