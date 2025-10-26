@@ -21,7 +21,7 @@
   
 - Prueba tu programa corriéndolo varias veces con diferentes entradas. Verifica que tu algoritmo produzca las salidas correctas. Pon atención especial a los casos que pudieran ser problemáticos de manejar (casos límite).
 
-- Añade una cadena de documentación (*docstring*), como se especifica en Canvas, al inicio de tu programa:
+- Añade una cadena de documentación (*docstring*), como se especifica en Canvas, al inicio de tu programa.
   
 ## Entrega
 Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo, código y pruebas de ejecución, en un informe tal como se describe en los requisitos para entrega de tareas en Canvas. No olvides incluir portada y conclusiones.
