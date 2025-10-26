@@ -40,5 +40,25 @@
       "timeout": 1,
       "points": 1
     },
+    {
+      "name": "diéresis",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
+      "input": "Otro empleado, un iraní, tiene más antigüedad que López",
+      "output": "23",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "DIÉRESIS",
+      "setup": "",
+      "run": "LANG=en_US.utf8 python3 contar_vocales.py",
+      "input": "ÁNGEL ÍÑIGUEZ ESCRIBIÓ PINGÜINO SIN DIÉRESIS Y CANESÚ SIN ACENTO",
+      "output": "26",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
   ]
 }
