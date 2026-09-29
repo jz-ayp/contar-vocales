@@ -31,6 +31,7 @@ Completa este y el resto de los ejercicios y compila, para cada ejercicio, el en
 |:---------|:--------|
 | `Hola` | `La frase tiene 2 vocales` |
 | `Hola, Antonio` | `La frase tiene 6 vocales` |
+| `Hola, Antonio. ¿Cómo estás?` | `La frase tiene 10 vocales` |
 
 ## Rúbrica
 Verifica tu entrega contra la rúbrica disponible en Canvas para maximizar tu calificación.
