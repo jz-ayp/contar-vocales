@@ -1,0 +1,62 @@
+{
+  "assignments": [
+    {
+      "tests": [
+        {
+          "name": "Hola",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "Hola",
+          "expected": "2"
+        },
+        {
+          "name": "minúsculas",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "la casa nueva es muy linda",
+          "expected": "10"
+        },
+        {
+          "name": "mayúsculas",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "Ayer en la UNAM hubo un simposio de la UNICEF",
+          "expected": "18"
+        },
+        {
+          "name": "acentos",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "Es útil saber que, en México, talar un árbol requiere un permiso",
+          "expected": "25"
+        },
+        {
+          "name": "diéresis",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "Otro empleado, un iraní, tiene más antigüedad que López",
+          "expected": "23"
+        },
+        {
+          "name": "DIÉRESIS",
+          "type": "io",
+          "run": "python3 contar_vocales.py",
+          "points": 10,
+          "comparison": "included",
+          "input": "ÁNGEL ÍÑIGUEZ ESCRIBIÓ PINGÜINO SIN DIÉRESIS Y CANESÚ SIN ACENTO",
+          "expected": "26"
+        }
+      ]
+    }
+  ]
+}
