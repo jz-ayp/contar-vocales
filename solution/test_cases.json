@@ -7,54 +7,54 @@
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "Hola",
-          "expected": "2"
+          "expected": "\\b2\\b"
         },
         {
           "name": "minúsculas",
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "la casa nueva es muy linda",
-          "expected": "10"
+          "expected": "\\b10\\b"
         },
         {
           "name": "mayúsculas",
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "Ayer en la UNAM hubo un simposio de la UNICEF",
-          "expected": "18"
+          "expected": "\\b18\\b"
         },
         {
           "name": "acentos",
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "Es útil saber que, en México, talar un árbol requiere un permiso",
-          "expected": "25"
+          "expected": "\\b25\\b"
         },
         {
           "name": "diéresis",
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "Otro empleado, un iraní, tiene más antigüedad que López",
-          "expected": "23"
+          "expected": "\\b23\\b"
         },
         {
           "name": "DIÉRESIS",
           "type": "io",
           "run": "python3 contar_vocales.py",
           "points": 10,
-          "comparison": "included",
+          "comparison": "regex",
           "input": "ÁNGEL ÍÑIGUEZ ESCRIBIÓ PINGÜINO SIN DIÉRESIS Y CANESÚ SIN ACENTO",
-          "expected": "26"
+          "expected": "\\b26\\b"
         }
       ]
     }

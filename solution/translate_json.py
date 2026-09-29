@@ -21,9 +21,9 @@ for test in tests_in["tests"]:
             "type": "io",
             "run": "python3" + test["run"].split("python3")[1],
             "points": 10,
-            "comparison": test["comparison"],
+            "comparison": "regex",
             "input": test["input"],
-            "expected": test["output"],
+            "expected": f'\\b{test["output"]}\\b',
         }
     )
 clsrm50 = {"assignments": [{"tests": clsrm50}]}
