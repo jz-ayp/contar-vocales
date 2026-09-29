@@ -9,7 +9,7 @@ CONSTANTE = valor
 entrada = input()
 
 # Proceso
-
+salida = entrada
 
 # Salidas
 print(salida)
